@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="displayproject.js"></script>
+    <script src="main.js"></script>
+    <title>Document</title>
+    <style>
+        .layout {
+            width: 100%;
+
+            display: grid;
+            grid:
+                "sidebar body" 1fr
+                / auto 1fr;
+            gap: 8px;
+            }
+
+            .sidebar { grid-area: sidebar; }
+            .body { grid-area: body; }
+    </style>
+</head>
+<body> 
+    <button onclick="backtohomepage()">Homepage</button>
+
+    <h1 id="html_project_title"></h1>
+    <div id="accoutInfo">
+        
+    </div>
+
+    <div> <!-- Maybe make this toggle swtich?-->
+        <button onclick="ShowIndidivual()">My Assignments</button>
+        <button onclick="ShowProjectOverview()">Project overview</button>
+
+    </div>
+    
+    <div id="ProjectManagersection">
+        <button onclick="addAssignment()">Add Assigment</button>
+            <dialog id="assignDialog">
+                <form>
+                <select id="priority" > 
+                    <option value="High">High </option>
+                    <option value="Mid">Mid</option>
+                    <option value="Low">Low</option>
+                </select>
+
+                <select id="workerSelect" name="workerSelected" required>
+                    <!-- filled by Java script-->
+                </select>   
+                <input type="text" name="shortext" required id="Assignment_shorttext" placeholder="Add Assignment Shorttext" >
+                <!--<input type="text" id="Assigment_description" placeholder="Add Assigment Description" size="50">-->
+                <textarea id="Assigment_description" placeholder="Add Assigment Description"></textarea>
+ 
+                <input type="date" id="Assigment_deadline">
+                <button onclick="cancelAssignment()">Cancel </button>
+                <button type="submit" onclick="sendAssignment()">Assign </button>
+            </form>
+            </dialog>
+    </div>
+    <div id="Project_overview">
+        Project overview
+        <div id="assignmentsContainer">
+            <table id="assignemtstable"></table>
+        </div>              
+    </div>
+
+    <div id="Task_overview">
+        Task overview
+        <p id="Projectmanagermessage"> </p>
+        <section class="layout">
+            <div class="sidebar"><ul id="Workertasklist"></ul></div>
+            
+                
+          
+            <div class="body"></div>
+          </section>
+
+
+    </div>
+            
+            <dialog id="assignmentDialog">
+                <h2>Assignment Details</h2>
+                <p><strong>Short Text:</strong> <span id="dialogShorttext"></span></p>
+                <p><strong>Description:</strong> <span id="dialogDescription"></span></p>
+                <p><strong>Deadline:</strong> <span id="dialogDeadline"></span></p>
+                <div id="dialogComments">
+                    <h3>Comments</h3>
+                    <ul id="commentList"></ul>
+
+                </div>
+                <button onclick="closeDialog()">Close</button>
+            </dialog>
+
+    </div>
+</body>
+<footer>
+    <div >
+
+        <div id="logout">
+        </div>
+        <button id="logout" onclick="logout()">Logout</button>
+    </div>
+</footer>
+</html>

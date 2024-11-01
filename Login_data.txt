@@ -1,0 +1,62 @@
+[
+    {
+        Email: testing@register.com
+        Username: Projectmanager 1
+        password: Warframesucks
+        Role Projectmanager
+    }
+    {
+        Email: Projectmanager@two.com
+        Username: Projectmanager 2
+        password: Projectmanager2
+        Role Projectmanager
+    }
+        {
+        Email: Projectmanager@three.com
+        Username: Projectmanager 3
+        password: Projectmanager3
+        Role Projectmanager
+    }
+    {
+        Email: worker@one.com
+        Username : Worker 0
+        password : workerzero
+        Role Worker
+    }
+        {
+        Email: worker@one.com
+        Username : Worker 1
+        password : worker1
+        Role Worker
+    }
+        {
+        Email: worker@two.com
+        Username : Worker 2
+        password : worker2
+        Role Worker
+    }
+        {
+        Email: worker@three.com
+        Username : Worker 3
+        password : worker3
+        Role Worker
+    }
+        {
+        Email: worker@four.com
+        Username : Worker 4
+        password : worker4
+        Role Worker
+    }
+        {
+        Email: worker@five.com
+        Username : Worker 5
+        password : worker5
+        Role Worker
+    }
+    {
+        Email: admin@admin
+        Username: admin
+        Password: admin
+        Role admin
+    }
+]

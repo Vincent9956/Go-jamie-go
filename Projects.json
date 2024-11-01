@@ -1,0 +1,144 @@
+[
+  {
+    "project_name": "Project 1 ",
+    "project_manager": "Projectmanager 1",
+    "description": "Project one is used to test if the basic Project Creation is working",
+    "deadline": "2025-12-12",
+    "workers": [
+      {
+        "name": "Worker 0",
+        "assignments": [
+          {
+            "priority": "High",
+            "shorttext": "Test Assignment",
+            "description": "This is used to test the assignment feature",
+            "deadline": "2025-12-11",
+            "status": "In Progress",
+            "comments": [
+              {
+                "text": "Dreck",
+                "author": "Worker 0"
+              },
+              {
+                "text": "Ich pack das alleine nicht",
+                "author": "Worker 0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Worker 1",
+        "assignments": [
+          {
+            "priority": "High",
+            "shorttext": "Test comment section ",
+            "description": "This is used to test the comment section",
+            "deadline": "2024-12-11",
+            "status": "In Progress",
+            "comments": [
+              {
+                "text": "Does the comment section work?",
+                "author": "Worker 1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Worker 2",
+        "assignments": [
+          {
+            "priority": "High",
+            "shorttext": "Figuring out bugs",
+            "description": "Hes supposed to figure out the most important bugs",
+            "deadline": "2024-12-12",
+            "status": "Pending",
+            "comments": []
+          }
+        ]
+      },
+      {
+        "name": "Worker 3",
+        "assignments": []
+      },
+      {
+        "name": "Worker 4",
+        "assignments": []
+      },
+      {
+        "name": "Worker 5",
+        "assignments": []
+      }
+    ]
+  },
+  {
+    "project_name": "Project 2 ",
+    "project_manager": "Projectmanager 1",
+    "description": "Test to see if Project Creation Autonmatically updates the list",
+    "deadline": "2024-12-12",
+    "workers": [
+      {
+        "name": "Worker 0",
+        "assignments": []
+      },
+      {
+        "name": "Worker 1",
+        "assignments": []
+      }
+    ]
+  },
+  {
+    "project_name": "Project 3",
+    "project_manager": "Projectmanager 1",
+    "description": "Debug for Project 2",
+    "deadline": "2024-12-12",
+    "workers": [
+      {
+        "name": "Worker 5",
+        "assignments": []
+      }
+    ]
+  },
+  {
+    "project_name": "Project 4",
+    "project_manager": "Projectmanager 1",
+    "description": "Showcase of the working state of the project",
+    "deadline": "",
+    "workers": [
+      {
+        "name": "Worker 0",
+        "assignments": [
+          {
+            "priority": "Mid",
+            "shorttext": "Please at limit",
+            "description": "Add limit to the short description",
+            "deadline": "1122-12-12",
+            "status": "Pending",
+            "comments": []
+          }
+        ]
+      },
+      {
+        "name": "Worker 1",
+        "assignments": []
+      },
+      {
+        "name": "Worker 2",
+        "assignments": []
+      },
+      {
+        "name": "Worker 3",
+        "assignments": []
+      },
+      {
+        "name": "Worker 4",
+        "assignments": []
+      },
+      {
+        "name": "Worker 5",
+        "assignments": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "email": "testing@register.com",
+    "username": "Projectmanager 1",
+    "password": "$2b$10$RqFH2fIuPpmjrKjRuclaVuXzNTfATnuyojnoKVeO7RFgY7WDQtesC",
+    "role": "Project Manager"
+  },
+  {
+    "email": "Projectmanager@two.com",
+    "username": "Projectmanager 2",
+    "password": "$2b$10$YL9H2fXhIDLYup0/1fn41ODiNWtUOVx9wCAVPSCRnENsYYsFXR0li",
+    "role": "Project Manager"
+  },
+  {
+    "email": "Projectmanager@three.com",
+    "username": "Projectmanager 3",
+    "password": "$2b$10$9x34/X/CAunUTFDng3Zkm.JpF/YyeXlB4HLYZsgZst5.2w1FvSW76",
+    "role": "Project Manager"
+  },
+  {
+    "email": "worker@zero.com",
+    "username": "Worker 0",
+    "password": "$2b$10$UeENlCdq5SyEfa1HshBoF.gLvJrXdqlGfj5h3Awu9d0edNDjeQ4fi",
+    "role": "Worker"
+  },
+  {
+    "email": "worker@one.com",
+    "username": "Worker 1",
+    "password": "$2b$10$2my.CjnmmtWK/3G0cVsyYewPzT4Ebx/kMYhNuEx0zYJyEILUF6x2e",
+    "role": "Worker"
+  },
+  {
+    "email": "worker@two.com",
+    "username": "Worker 2",
+    "password": "$2b$10$nfnwpe5HMosLBFiSjjqKvOikZ3x7mYPCTydQn.oK1SUeSTHQAZ716",
+    "role": "Worker"
+  },
+  {
+    "email": "worker@three.com",
+    "username": "Worker 3",
+    "password": "$2b$10$AhxnUXxzOjVLx9XT3xmnqeE2jXUCsRe52d1AD/.PFHXMVmvSFkNGK",
+    "role": "Worker"
+  },
+  {
+    "email": "worker@four.com",
+    "username": "Worker 4",
+    "password": "$2b$10$UoOdNyq1/o6IzLMMB/vx6uOPmiUTAz7jRdoU/.z9dKHZhMY0rh1ey",
+    "role": "Worker"
+  },
+  {
+    "email": "worker@five.com",
+    "username": "Worker 5",
+    "password": "$2b$10$5ZNsxhp6SpPOc6dkoRceyeIBNHIHFdPS1gsebc0jPnOT1BB9BObBq",
+    "role": "Worker"
+  },
+  {
+    "email": "Admin@admin",
+    "username": "admin",
+    "password": "$2b$10$InomXc67OtCQI4eyieAhjebGDDNVnW/DoNjsCUtMW0Dh7nvhDXd.G",
+    "role": "Admin"
+  }
+]
